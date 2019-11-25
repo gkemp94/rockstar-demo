@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "pegjs lib/rockstar.peg",
+    "rock-on": "node ./lib/rock.js fizzbuzz.rock && node ./output/fizzbuzz.js"
+  }
+}
